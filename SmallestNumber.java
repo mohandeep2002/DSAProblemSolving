@@ -7,6 +7,7 @@ public class SmallestNumber {
         System.out.println("Input");
         int n = scn.nextInt();
         System.out.println(solution(n));
+        scn.close();
     }
 
     public static int solution(int n) {
